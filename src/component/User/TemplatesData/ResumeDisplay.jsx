@@ -18,7 +18,7 @@ const ResumeDisplay = () => {
             },
           }
         );
-
+    
         console.log("API response:", response.data);
 
         if (

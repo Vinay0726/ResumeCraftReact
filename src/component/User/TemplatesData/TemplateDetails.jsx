@@ -43,7 +43,7 @@ const TemplateDetails = () => {
             },
           }
         );
-
+ 
         if (
           response.data &&
           response.data.userProfile &&

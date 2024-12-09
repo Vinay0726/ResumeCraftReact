@@ -73,7 +73,12 @@ const Navbar = () => {
   return (
     <div>
       <div className="w-full flex justify-between items-center h-20 bg-gray-100">
-        <div className="p-2 text-green-600 text-3xl font-bold">ResumeCraft</div>
+        <div
+          className="p-2 text-green-600 text-3xl font-bold"
+          onClick={() => navigate("/userdashboard")}
+        >
+          ResumeCraft
+        </div>
 
         <div className="flex items-center p-5 gap-5">
           {auth.user?.userProfile?.firstName &&
