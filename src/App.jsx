@@ -6,6 +6,7 @@ import AdminRouters from "./routers/AdminRouters";
 function App() {
   return (
     <div className="h-full w-full">
+
       <Routes>
         {/* Customer routes */}
         <Route path="/*" element={<CustomersRouters />} />
